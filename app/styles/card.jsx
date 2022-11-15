@@ -34,6 +34,8 @@ const styles = StyleSheet.create({
     interactionsContainer: {
         flexDirection: 'row',
         alignItems: 'center',
+        marginHorizontal: 5,
+        
     },
 
     commentsContainer: {
@@ -79,7 +81,9 @@ const styles = StyleSheet.create({
         fontSize: SIZES.name,
     },
     bookmarkContainer: {
-        left: 100,
+        position: 'absolute',
+        right: 8,
+        zIndex: 1,
     },
     shareContainer: {
         top: 2,
