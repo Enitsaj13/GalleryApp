@@ -36,4 +36,5 @@ SORRY, SEARCH FEATURE IS NOT YET AVAILABLE. I'M STILL WORKING ON IT.
 ---SCREENSHOTS---
 
 Go to the screenshots directory to see the screenshots of the app.
-Assets / Screenshots
+
+- Assets / Screenshots
