@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 1,},
         shadowOpacity: 0.1,
-        elevation: 5,
+        elevation: 2,
     },
 
     userContainer: {
@@ -55,8 +55,8 @@ const styles = StyleSheet.create({
 
     image: {
         height: height / 3,
-
     },
+
     likes: {
         marginHorizontal: 5,
         marginVertical: width * 0.03,
@@ -71,7 +71,6 @@ const styles = StyleSheet.create({
         fontFamily: FONTS.regular,
         letterSpacing: 1,
         fontSize: SIZES.font,
-
     },
 
     user: {
@@ -79,11 +78,13 @@ const styles = StyleSheet.create({
         letterSpacing: 1,
         fontSize: SIZES.name,
     },
+
     bookmarkContainer: {
         position: 'absolute',
         right: 8,
         zIndex: 1,
     },
+    
     shareContainer: {
         top: 2,
     },

@@ -22,7 +22,7 @@ const ImageCard = ({ item, navigation }) => {
         Toast.show({
             type: isPressed ? 'error' : 'success',
             position: 'top',
-            text1: isPressed ? 'Removed from bookmark! 🥹' : 'Added to bookmark! 😍',
+            text1: isPressed ? 'Removed from bookmark! 🥺' : 'Added to bookmark! 😍',
             visibilityTime: 3000,
         })
 

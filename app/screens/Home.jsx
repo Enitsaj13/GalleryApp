@@ -36,7 +36,7 @@ const HomeScreen = ({ navigation }) => {
     }, [])
 
     const getPixaBay = () => {
-        API.get('?key=31329225-ada8712aea9212be1fe2a7ec7&q=nature&image_type=photo&pretty=true&per_page=200')
+        API.get('?key=31329225-ada8712aea9212be1fe2a7ec7&q=nature+animals&image_type=photo&pretty=true&per_page=200')
             .then((response) => {
                 setPixaBay(response.data.hits)
             })
@@ -103,4 +103,9 @@ const HomeScreen = ({ navigation }) => {
 }
 
 export default HomeScreen
+
+
+
+
+
 
