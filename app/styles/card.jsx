@@ -10,10 +10,9 @@ const styles = StyleSheet.create({
         margin: width * 0.03,
         borderRadius: width * 0.05,
         shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.2,
-        shadowRadius: 2,
-        elevation: 1,
+        shadowOffset: { width: 0, height: 1,},
+        shadowOpacity: 0.1,
+        elevation: 5,
     },
 
     userContainer: {
@@ -26,7 +25,7 @@ const styles = StyleSheet.create({
     likesContainer: {
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'start',
+        justifyContent: 'flex-start',
         padding: 10,
 
     },
@@ -41,7 +40,7 @@ const styles = StyleSheet.create({
     commentsContainer: {
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'start',
+        justifyContent: 'flex-start',
         padding: 10,
     },
 

@@ -15,8 +15,7 @@ const styles = StyleSheet.create({
     },
 
     logoContainer: {
-        alignItems: 'start',
-      
+        alignItems: 'flex-start',
     },
     logo: {
         fontSize: SIZES.large,
