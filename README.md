@@ -32,6 +32,7 @@ SORRY, SEARCH FEATURE IS NOT YET AVAILABLE. I'M STILL WORKING ON IT.
 - Image Favorite
 - Image Detail
 - Image Comment
+- Bookmark
 
 ---SCREENSHOTS---
 
