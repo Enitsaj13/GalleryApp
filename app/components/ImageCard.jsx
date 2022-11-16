@@ -17,10 +17,6 @@ const ImageCard = ({ item, navigation }) => {
     const [isPressed, setIsPressed] = useState(false)
     const handlerBookmark = () => setIsPressed((prevState) => !prevState)
 
-    /* <-- theme context --> */
-    const THEME = useContext(ThemeContext)
-
-
     /* <-- toast added to bookmark and remove --> */
     const toastMessage = () => {
         Toast.show({
@@ -32,6 +28,10 @@ const ImageCard = ({ item, navigation }) => {
 
         handlerBookmark()
     }
+
+
+     /* <-- theme context --> */
+     const THEME = useContext(ThemeContext)
 
 
     return (

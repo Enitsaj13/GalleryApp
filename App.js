@@ -1,5 +1,6 @@
 /* <-- dependencies --> */
 import React, { useState, useEffect } from 'react'
+import Toast from 'react-native-toast-message'
 import { useFonts } from 'expo-font'
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
@@ -64,6 +65,7 @@ const App = () => {
             <Stack.Screen name='Details' component={DetailScreen} />
           </Stack.Navigator>
         </NavigationContainer>
+        <Toast />
       </ThemeContext.Provider>
     </>
     )
